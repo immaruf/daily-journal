@@ -328,6 +328,11 @@ footer li {
     color: #f2f9f1;
 }
 
+.input-group input::placeholder {
+    color: #ddeedf;
+    opacity: .8;
+}
+
 .input-group .btn-main:hover {
     background-color: #5c715e;
     color: #b6cdbd;
