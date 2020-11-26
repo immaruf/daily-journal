@@ -5,12 +5,28 @@
     box-sizing: border-box;
 }
 
+header {
+    background-color: #f2f9f1;
+}
+
+.main {
+    background-color: #f2f9f1;
+}
+
+.blog-posts {
+    background-color: #ddeedf;
+}
+
+footer {
+    background-color: #5c715e !important;
+}
+
 body {
     font-family: 'Manrope', sans-serif;
 }
 
 .bg-primary {
-    background-color: #28abb9;
+    background-color: #b6cdbd;
 }
 
 .bg-dark {
@@ -18,11 +34,11 @@ body {
 }
 
 .bg-white {
-    background-color: #fafaff;
+    background-color: #f2f9f1;
 }
 
 .color-primary {
-    color: #28abb9;
+    color: #b6cdbd;
 }
 
 .color-dark {
@@ -30,7 +46,7 @@ body {
 }
 
 .color-white {
-    color: #fafaff;
+    color: #f2f9f1;
 }
 
 
@@ -110,9 +126,9 @@ h4 {
 }
 
 .box:hover {
-    -webkit-box-shadow: 0 5px 6px -6px #28abb9;
-    -moz-box-shadow: 0 5px 6px -6px #28abb9;
-    box-shadow: 0 5px 6px -6px #28abb9;
+    -webkit-box-shadow: 0 5px 6px -6px #b6cdbd;
+    -moz-box-shadow: 0 5px 6px -6px #b6cdbd;
+    box-shadow: 0 5px 6px -6px #b6cdbd;
     /* box-shadow: 0 0 10px #ccc; */
     /* transform: translate(2px); */
     /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); */
@@ -151,7 +167,7 @@ header .info ul {
 
 .logo span {
     font-weight: 400;
-    color: #28abb9;
+    color: #b6cdbd;
 }
 
 header nav {
@@ -249,7 +265,7 @@ header nav {
 }
 
 .tags .badge a {
-    color: #fafaff;
+    color: #f2f9f1;
 }
 
 .btn-container {
@@ -261,14 +277,14 @@ header nav {
     font-size: 1.2rem;
     text-transform: uppercase;
     border: none;
-    background-color: #222;
-    color: #28abb9;
+    background-color: #5c715e;
+    color: #f2f9f1;
     font-weight: 700;
     transition: all .5s;
 }
 
 .btn-main:hover {
-    background-color: #28abb9;
+    background-color: #b6cdbd;
     color: #222;
 }
 
@@ -276,12 +292,12 @@ header nav {
 /* footer */
 
 footer {
-    color: #fafaff;
+    color: #f2f9f1;
     margin: 0 !important;
 }
 
 footer a {
-    color: #28abb9;
+    color: #b6cdbd;
 }
 
 footer ul {
@@ -298,22 +314,23 @@ footer li {
 
 .input-group .btn-main {
     padding: 0.7rem 1rem;
-    background-color: #fafaff;
-    border: 2px solid #28abb9;
+    background-color: #f2f9f1;
+    border: 2px solid #b6cdbd;
     transition: all .5s;
+    color: #5c715e;
 }
 
 .input-group input {
     padding: 0.7rem 1rem;
     font-size: 1.2rem;
-    background-color: #222;
-    border: 2px solid #28abb9;
-    color: #fafaff;
+    background-color: #5c715e;
+    border: 2px solid #b6cdbd;
+    color: #f2f9f1;
 }
 
 .input-group .btn-main:hover {
-    background-color: #222;
-    color: #28abb9;
+    background-color: #5c715e;
+    color: #b6cdbd;
 }
 
 footer form {
@@ -335,6 +352,10 @@ footer form {
 .content a {
     text-decoration: underline;
     font-weight: 700;
+}
+
+.credits {
+    margin-top: 2rem;
 }
 
 
@@ -404,7 +425,7 @@ footer form {
         background: #222;
     }
     nav ul li:nth-child(odd) a {
-        color: #28abb9
+        color: #b6cdbd
     }
 }
 
